@@ -1,3 +1,10 @@
+// Make this pattern
+// * * * * 
+// * * * 
+// * * 
+// * 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
