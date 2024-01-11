@@ -1,9 +1,9 @@
 // Make this pattern
-// * * * * *
-// * * * *
-// * * * 
-// * *
-// *
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,14 +19,16 @@ int main()
 #endif
     int n;
     cin >> n;
+    int cnt = 1;
     int a[n], b[n];
 
     for (int i = 1; i <= n; ++i)
     {
-        for (int j = n; j > n - (n - i + 1); --j)
+        for (int j = 1; j <= i; ++j)
         {
-            cout << "* ";
+            cout << cnt++ << " ";
         }
+        cnt = 1;
         cout << "\n";
     }
 
