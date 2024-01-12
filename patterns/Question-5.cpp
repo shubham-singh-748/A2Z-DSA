@@ -1,7 +1,7 @@
 // Make this pattern
 // * * * * *
 // * * * *
-// * * * 
+// * * *
 // * *
 // *
 
@@ -19,11 +19,10 @@ int main()
 #endif
     int n;
     cin >> n;
-    int a[n], b[n];
 
     for (int i = 1; i <= n; ++i)
     {
-        for (int j = n; j > n - (n - i + 1); --j)
+        for (int j = i; j <= n; ++j)
         {
             cout << "* ";
         }

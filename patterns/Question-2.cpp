@@ -19,7 +19,6 @@ int main()
 #endif
     int n;
     cin >> n;
-    int a[n], b[n];
 
     for (int i = 1; i <= n; ++i)
     {
